@@ -1,0 +1,6 @@
+echo "__pycache__/
+.env
+output-product.csv" > .gitignore
+git add .gitignore
+git commit -m "Añadir archivo .gitignore para excluir archivos innecesarios"
+git push origin main
